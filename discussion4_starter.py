@@ -6,7 +6,9 @@ class Rectangle():
     # It sets an instance variable, "height" to the passed argument, height
 
     # YOUR CODE HERE
-
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
 
 
     # Create the "__str__" method
@@ -15,17 +17,21 @@ class Rectangle():
     #       "A rectangle with width ____ and height ____"
 
     # YOUR CODE HERE
-
+    def __str__(self):
+        return f"A rectangle with width {self.width} and height {self.height}"
 
 
     # Create the "verify_input" method
     #
-    # It returns a boolean
+    # It returns a booleanaaaa
     #       True if the width and height are positive numbers
     #       False otherwise
 
     # YOUR CODE HERE
-
+    def verify_input(self):
+        if self.width > 0 and self.height > 0:
+            return True
+        return False
 
 
     # Create the "area" method
@@ -34,16 +40,22 @@ class Rectangle():
     # Otherwise, it returns the area of the rectangle.
 
     # YOUR CODE HERE
-
+    def area(self):
+        if(self.verify_input()):
+            return self.height * self.width
+        return "Invalid input"
 
 
     # Create the "perimeter" method
     #
     # It first verifies inputs and return "Invalid input" if they are invalid.
-    # Otherwise, it returns the perimeter of the rectangle.
+    # Otherwise, it returns the perimeter of the rectangle. aaaaaaaa
 
     # YOUR CODE HERE
-    
+    def perimeter(self):
+        if(self.verify_input()):
+            return 2*self.width + 2*self.height
+        return "Invalid input"
 
 
 def main():
