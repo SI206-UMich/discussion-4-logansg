@@ -2,7 +2,7 @@ class Rectangle():
     # Create the constructor "__init__" method
     # Arguments: width (an ingeter), height (an integer)
     # 
-    # It sets an instance variable, "width" to the passed argument, width
+    # It sets an instance variable, "width" to the passed argument, widthaaa
     # It sets an instance variable, "height" to the passed argument, heightaaaaaa
 
     # YOUR CODE HERE
