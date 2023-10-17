@@ -3,7 +3,7 @@ class Rectangle():
     # Arguments: width (an ingeter), height (an integer)
     # 
     # It sets an instance variable, "width" to the passed argument, width
-    # It sets an instance variable, "height" to the passed argument, height
+    # It sets an instance variable, "height" to the passed argument, heightaaa
 
     # YOUR CODE HERE
     def __init__(self, width, height):
